@@ -27,4 +27,11 @@ object Collections extends App {
   }
   println(Person.details)
 
+  //challenge
+  case class Country(name: String, population: Int)
+
+  def population(country: Country): Int = country.population
+
+  println(population(new Country("India", 500)))
+
 }
